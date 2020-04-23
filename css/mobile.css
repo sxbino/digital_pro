@@ -1,0 +1,19 @@
+@media (max-width: 1100px) {
+	.products {
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: center;
+		align-items: center;
+	}
+	.product {
+		margin-top: auto;
+	}
+	.main_section {
+		padding: 4%;
+	}
+	.mentions {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

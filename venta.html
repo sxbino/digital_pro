@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <title>BRAND📦</title>
+</head> <!-- CIERRA HEAD -->
+
+<body>
+  <!-- Aquí empieza el navbar -->
+  <nav class="fadeInDown">
+    <img src="images/logo.png" alt="">
+    <ul>
+      <li>
+        <a href="#">FAQs</a>
+      </li>
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- AQUI TERMINA EL NAV BAR -->
+
+  <!-- AQUI EMPIEZA EL FORMULARIO DE VENTA -->
+
+  <section class="container">
+    <div class="row_venta">
+      <div class="row">
+        <div class="col-4">
+          <div class="modulo_pago">
+            <div class="modulo">
+              <div class="modulo_pago_img">
+                <img src="images/box2.png" alt="">
+              </div>
+              <h3>Producto 1</h3>
+              <p>Miles de productos hay en el mercado, pero nada como una caja de gatitos o... una caja de hombrecitos
+                calvos
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="modulo_pago">
+            <div class="modulo">
+              <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GDX6RJ4L8N82N"
+                method="post" target="_blank">
+                <label for="name">Nombre</label>
+                <br>
+                <input type="text" placeholder="" name="name" class="data">
+                <br>
+                <label for="lastname">Apellido</label>
+                <br>
+                <input type="text" placeholder="" name="last_name" class="data">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" placeholder="" name="email" class="data">
+                <br>
+                <label for="direction">Direccion</label>
+                <br>
+                <input type="text" placeholder="" name="direction" class="data">
+                <br>
+                <input type="submit" class="main_button" value="Confirmar Pago">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- INICIO DEL FOOTER -->
+  <footer class="footer">
+    <p>Términos y condiciones</p>
+    <p> Contacto: contacto@contacto.com</p>
+    </footer">
+
+    <!-- ESTE ES EL SCRIPT -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
