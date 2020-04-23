@@ -33,7 +33,6 @@ body {
 	align-items: center;
 }
 nav {
-	max-width: 1400px;
 	display: flex;
 	background-color: var(--green-color);
 	padding: var(--space);
